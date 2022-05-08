@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E
+}
+h1
+{
+  margin-top:0;
+  font-family:  'Sacramento', cursive;
+  font-size: 80px;
+  color: #36AE7C;
+}
+h2
+{
+  font-family: 'Merriweather', serif;
+  color: #36AE7C;
+  margin-bottom: 20px;
+}
+h3
+{
+  font-family: 'Merriweather', serif;
+  color: #36AE7C;
+}
+hr{
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a:hover{
+  color: #3498db;
+}
+.container{
+  background-color: #C4DDFF;
+  padding-top: 150px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.pro
+{
+  text-decoration: underline;
+}
+.my-image{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+.skill-image{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 200px;
+}
+.skill-trek
+{
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+}
+
+.mountain-set{
+  height: 500px;
+  width: 500px;
+}
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 20px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.contact-me{
+
+}
+.bottom{
+  background-color: #C4DDFF;
+  padding: 50px 0px 20px;
+}
+.message{
+  width: 40%;
+  margin:  40px auto 40px ;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family:'Merriweather', serif;
+  color: #030303;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0b7bb8;
+  background-image: -webkit-linear-gradient(top, #0b7bb8, #a9d5f2);
+  background-image: -moz-linear-gradient(top, #0b7bb8, #a9d5f2);
+  background-image: -ms-linear-gradient(top, #0b7bb8, #a9d5f2);
+  background-image: -o-linear-gradient(top, #0b7bb8, #a9d5f2);
+  background-image: linear-gradient(to bottom, #0b7bb8, #a9d5f2);
+  text-decoration: none;
+}
+.footer-link{
+  font-family: 'Merriweather', serif;
+  text-decoration: none ;
+  color: #0b7bb8;
+  margin :10px 20px;
+}
+.copyright{
+  font-size: 20px;
+}
